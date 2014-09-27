@@ -12,10 +12,18 @@ header {
 }
 
 #work {
+	.logo {
+		width: 100px;
+	}
 	.thumbnail {
 		width: 208px;
 		height: 127px;
 		background: #DDD;
 		margin: 5px;
 	}
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 50px auto;
 }
