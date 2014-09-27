@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 600px;
+	background: url(/images/header.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#work {
+	.thumbnail {
+		width: 208px;
+		height: 127px;
+		background: #DDD;
+		margin: 5px;
+	}
+}
