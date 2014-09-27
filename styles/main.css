@@ -1,14 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,500);
 * {
   margin: 0;
   padding: 0; }
 
+body {
+  font-family: Raleway, sans-serif;
+  line-height: 1.5em; }
+
+section {
+  height: 600px;
+  position: relative; }
+
 header {
   height: 600px;
-  background: url(/images/header.jpg);
+  background-image: url(/images/header.jpg); }
+
+#about {
+  height: 600px;
+  /*padding: 100px;*/
+  background: url(/images/jess.jpg); }
+  #about .wrapper {
+    width: 50%;
+    margin: 0 0 0 50%;
+    padding: 10% 0 0 0;
+    position: relative; }
+    #about .wrapper p {
+      margin: 20px 100px; }
+  #about .overlay {
+    background-color: white;
+    opacity: 0.6;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0; }
+
+header, #about {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed; }
 
+#work .wrapper {
+  width: 1000px;
+  margin: 50px auto; }
 #work .logo {
   width: 100px; }
 #work .thumbnail {
@@ -17,8 +50,7 @@ header {
   background: #DDD;
   margin: 5px; }
 
-.wrapper {
-  width: 1000px;
-  margin: 50px auto; }
+#work, #contact {
+  height: 800px; }
 
 /*# sourceMappingURL=main.css.map */
