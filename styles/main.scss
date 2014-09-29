@@ -1,4 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway|Bitter|Leckerli+One);
+/*	H1: Leckerli One
+	H2: Bitter
+	Header: Slabo 13px
+	Copy: Roboto
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:300|Bitter|Leckerli+One|Slabo+13px);
 
 * {
 	margin: 0;
@@ -6,13 +12,17 @@
 }
 
 body {
-	font-family: Raleway, sans-serif;
+	font-family: Roboto, sans-serif;
 	line-height: 1.5em;
 }
 
 section {
 	height: 600px;
 	position: relative;
+	h3 {
+		font-family: 'Slabo 13px';
+		font-size: 44px;
+	}
 }
 
 header {
