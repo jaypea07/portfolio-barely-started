@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,500);
+@import url(http://fonts.googleapis.com/css?family=Raleway|Bitter|Leckerli+One);
 * {
   margin: 0;
   padding: 0; }
@@ -13,7 +13,29 @@ section {
 
 header {
   height: 600px;
-  background-image: url(/images/header.jpg); }
+  background-image: url(/images/header.jpg);
+  color: #FFF; }
+  header nav {
+    color: #000;
+    margin: 0 0 50px 0; }
+    header nav ul {
+      text-align: center; }
+      header nav ul li {
+        margin: 30px;
+        display: inline; }
+  header h1 {
+    font-family: Leckerli One, san-serif;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center; }
+  header h2 {
+    font-family: Bitter, serif;
+    font-size: 34px;
+    text-align: center;
+    line-height: 40px;
+    width: 850px;
+    margin: 0 auto;
+    color: #CCC; }
 
 #about {
   height: 600px;
